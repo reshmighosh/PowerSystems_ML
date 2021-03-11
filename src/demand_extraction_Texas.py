@@ -2,7 +2,6 @@ import os
 import csv
 import pandas as pd
 import numpy as np
-from AuxFuncs import *
 
 #Extract hourly ERCOT demand from given year, and return it in 1d list w/out headers
 #Drop leap day (feb 29) from demand to align w/ MERRA data
